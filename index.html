@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#D4AF37" />
+    
+    <title>BARBme | Premium Barber Services in Kenya</title>
+    <meta name="description" content="Experience Nairobi's finest barbering services with traditional craftsmanship and modern style at BARBme." />
+    <meta name="author" content="BARBme" />
+    <meta name="keywords" content="barber, haircut, grooming, Nairobi, Kenya, salon, beard trim" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://barbme.co.ke/" />
+    <meta property="og:title" content="BARBme | Premium Barber Services in Kenya" />
+    <meta property="og:description" content="Experience Nairobi's finest barbering services with traditional craftsmanship and modern style." />
+    <meta property="og:image" content="https://barbme.co.ke/images/social-preview.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://barbme.co.ke/" />
+    <meta name="twitter:title" content="BARBme | Premium Barber Services in Kenya" />
+    <meta name="twitter:description" content="Experience Nairobi's finest barbering services with traditional craftsmanship and modern style." />
+    <meta name="twitter:image" content="https://barbme.co.ke/images/social-preview.jpg" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d4af37">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/src/main.tsx" as="script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- iOS PWA config -->
+    <meta name="apple-mobile-web-app-title" content="BARBme">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- PWA config -->
+    <link rel="manifest" href="/manifest.json">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="text-align: center; padding: 2rem; font-family: sans-serif;">
+        <h1 style="color: #D4AF37; font-size: 2rem;">JavaScript is disabled</h1>
+        <p>Please enable JavaScript to experience BARBme website properly.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Google Analytics (optional) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+  </body>
+</html>
