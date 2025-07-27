@@ -1,8 +1,7 @@
-# Welcome to your Lovable project
+# Welcome to BarbMe project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/bca63514-0baf-48e0-8997-9479853952f0
 
 ## How can I edit this code?
 
