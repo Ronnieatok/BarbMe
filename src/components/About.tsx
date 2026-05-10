@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, MapPin, Users, Clock, Scissors, Shirt, Smile } from "lucide-react";
-import barberImage from "@/assets/about-barber.jpg";
-import shopImage from "@/assets/shop-interior.jpg";
+import barberImage from "@/assets/about-barber.jpeg";
+import shopImage from "@/assets/shop-interior.jpeg";
 
 const About = () => {
   const stats = [
