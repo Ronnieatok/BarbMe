@@ -5,7 +5,8 @@ import eventImage from "@/assets/event.jpeg";
 import modernCutImage from "@/assets/moderncut.jpeg";
 import traditionalImage from "@/assets/traditional.jpeg";
 import premiumImage from "@/assets/premium.jpeg";
-import placeholderImage from "@/assets/placeholder.jpeg";
+import shopImage from "@/assets/shop-interior.jpeg";
+ import barberImage from "@/assets/about-barber.jpeg";
 
 interface GalleryImage {
   src: string;
@@ -46,6 +47,11 @@ const Gallery = () => {
       src: premiumImage,
       alt: "Luxury grooming experience",
       category: "Premium Services"
+    },
+    {
+      src: barberImage,
+      alt: "Meet our skilled barber",
+      category: "Our Team"
     }
   ];
 
@@ -74,7 +80,7 @@ const Gallery = () => {
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 loading="lazy"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = placeholderImage;
+                  (e.target as HTMLImageElement).src = shopImage;
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-earth-dark/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -114,7 +120,7 @@ const Gallery = () => {
               alt={selectedImage.alt}
               className="w-full h-full object-contain rounded-lg"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = placeholderImage;
+                (e.target as HTMLImageElement).src = shopImage;
               }}
             />
             <div className="absolute bottom-4 left-0 right-0 text-center text-cream">
